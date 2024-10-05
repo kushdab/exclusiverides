@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Rides</title>
+    <style>
+        /* Inline CSS for lively design */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            color: white;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            max-width: 800px;
+            margin: 50px auto;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+        }
+        .content h2 {
+            color: #FFD700;
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .cars {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .car {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            width: 28%;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .car:hover {
+            transform: scale(1.05);
+        }
+        .car img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 20px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            color: white;
+        }
+        a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Exclusive Rides - Luxury Car Hire
+    </header>
+
+    <div class="content">
+        <h2>Welcome to Exclusive Rides</h2>
+        <p>
+            Enjoy the best luxury cars for hire. We offer a premium selection of vehicles that combine elegance, style, and performance. Book your ride today and experience the road like never before!
+        </p>
+
+        <div class="cars">
+            <div class="car">
+                <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg" alt="Mercedes Benz">
+                <h3>Mercedes Benz</h3>
+                <p>Drive in style with this luxury car.</p>
+                <a href="#">Rent Now</a>
+            </div>
+            <div class="car">
+                <img src="https://images.pexels.com/photos/1231643/pexels-photo-1231643.jpeg" alt="BMW">
+                <h3>BMW</h3>
+                <p>Experience performance and luxury combined.</p>
+                <a href="#">Rent Now</a>
+            </div>
+            <div class="car">
+                <img src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg" alt="Audi">
+                <h3>Audi</h3>
+                <p>Sleek design and cutting-edge technology.</p>
+                <a href="#">Rent Now</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Exclusive Rides. All rights reserved. | <a href="#">Contact Us</a>
+    </footer>
+</body>
+</html>
